@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAPI_Atend_FAQ.props" />
+</Project>
