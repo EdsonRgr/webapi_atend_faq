@@ -62,7 +62,7 @@ namespace WebAPI_Atend_FAQ.Service.SolicitacaoService
                 if (solicitacao == null)
                 {
                     serviceResponse.Dados = null;
-                    serviceResponse.Mensagem = "Solicitação não encontrada";
+                    serviceResponse.Mensagem = "Solicitação não encontrada!";
                     serviceResponse.Sucesso = false;
                     return serviceResponse;
                 }
