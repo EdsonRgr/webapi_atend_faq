@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI_Atend_FAQ.Models;
 using WebAPI_Atend_FAQ.Service.DuvidasService;
@@ -6,6 +7,7 @@ using WebAPI_Atend_FAQ.Service.SolicitacaoService;
 
 namespace WebAPI_Atend_FAQ.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class DuvidasController : ControllerBase

@@ -42,17 +42,17 @@ namespace WebAPI_Atend_FAQ.Controllers
         }
 
         [HttpPut("finalizaSolicitacao")]
-        public async Task<ActionResult<ServiceResponse<List<SolicitacaoModel>>>> FinalizaSolicitacao(int id, string funcional)
+        public async Task<ActionResult<ServiceResponse<List<SolicitacaoModel>>>> FinalizaSolicitacao(int id, string userName)
         {
-            UsuarioModel usuario = _usuarioBd.Ususarios.FirstOrDefault(x => x.Funcional == funcional);
-            return Ok(await _solicitacaoInterface.FinalizaSolicitacao(id, usuario.Nome));
+            
+            return Ok(await _solicitacaoInterface.FinalizaSolicitacao(id, userName));
         }
 
         [HttpPut("respostaSolicitacao")]
-        public async Task<ActionResult<ServiceResponse<List<SolicitacaoModel>>>> RespostaSolicitacao(SolicitacaoModel editandoSolicitacao, string funcional)
+        public async Task<ActionResult<ServiceResponse<List<SolicitacaoModel>>>> RespostaSolicitacao(SolicitacaoModel editandoSolicitacao, string ?userName)
         {
-            UsuarioModel usuario = _usuarioBd.Ususarios.FirstOrDefault(x => x.Funcional == funcional);
-            return Ok(await _solicitacaoInterface.UpdateSolicitacao(editandoSolicitacao, usuario.Nome));
+            
+            return Ok(await _solicitacaoInterface.UpdateSolicitacao(editandoSolicitacao, userName));
         }
 
         [HttpDelete]

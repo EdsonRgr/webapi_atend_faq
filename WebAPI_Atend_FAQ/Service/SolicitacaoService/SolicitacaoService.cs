@@ -185,11 +185,14 @@ namespace WebAPI_Atend_FAQ.Service.SolicitacaoService
                 }
 
 
+                solicitacao.Resposta = editandoSolicitacao.Resposta;
                 solicitacao.ResponsavelAtendimento = nome;
                 solicitacao.DataResposta = DateTime.Now.ToLocalTime();
+                solicitacao.StatusAndamentoOuFinalizado = true;
+                solicitacao.DataFinalizacao = DateTime.Now.ToLocalTime();
+                
 
-
-                _context.Solicitacaos.Update(editandoSolicitacao);
+                //_context.Solicitacaos.Update(editandoSolicitacao);
                 await _context.SaveChangesAsync();
 
                 serviceResponse.Dados = _context.Solicitacaos.ToList();

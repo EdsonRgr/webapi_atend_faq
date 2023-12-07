@@ -85,3 +85,7 @@ C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\b
 C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\diga_\OneDrive\Área de Trabalho\C#\WebAPI_Atend_FAQ\WebAPI_Atend_FAQ\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
